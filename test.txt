@@ -1,0 +1,14 @@
+program {
+   var a : int;
+   $#a = 27;
+   if(a==27) 
+   {
+   	cout ("E ok");
+   };
+   while(a!=27) 
+   {
+    a = a + 1 ;	
+   	cout ("Nu-i ok");
+   };
+   return 0;
+}
